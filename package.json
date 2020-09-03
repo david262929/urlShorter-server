@@ -28,7 +28,6 @@
     "shortid": "^2.2.15"
   },
   "devDependencies": {
-    "cross-env": "^7.0.2",
     "nodemon": "^2.0.4"
   }
 }
