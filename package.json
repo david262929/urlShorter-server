@@ -1,7 +1,7 @@
 {
-  "name": "mern-course",
+  "name": "URL Shorter",
   "version": "1.0.0",
-  "description": "Mern stack",
+  "description": "Mongo Express Node",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
