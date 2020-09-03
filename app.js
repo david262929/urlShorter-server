@@ -9,6 +9,8 @@ app.use(cors())
 
 app.use(express.json({extended: true}))
 
+app.use('/api/auth', require('./src/routes/auth.routes'))
+
 const PORT = process.env.NODE_PORT || 5000
 
 async function run() {
