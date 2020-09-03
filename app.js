@@ -11,6 +11,7 @@ app.use(express.json({extended: true}))
 
 app.use('/api/auth', require('./src/routes/auth.routes'))
 app.use('/api/link', require('./src/routes/link.routes'))
+app.use('/t', require('./src/routes/redirect.routes'))
 
 const PORT = process.env.NODE_PORT || 5000
 
